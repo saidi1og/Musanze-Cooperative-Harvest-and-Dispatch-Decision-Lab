@@ -60,8 +60,8 @@ def main():
     parser.add_argument(
         "--data",
         type=str,
-        default="data/AI_A1_G04.csv",
-        help="Path to input dataset CSV (e.g. data/AI_A1_G04.csv)"
+        default="data/AI_A1_G09.csv",
+        help="Path to input dataset CSV (e.g. data/AI_A1_G09.csv)"
     )
     parser.add_argument(
         "--output",
