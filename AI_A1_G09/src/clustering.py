@@ -79,11 +79,14 @@ def run_clustering_pipeline(
     clusters_csv_path = os.path.join(output_dir, "clusters.csv")
     clusters_df.to_csv(clusters_csv_path, index=False)
 
-    # 5. Calculate cluster profiles (centroids in original units)
+    # 5. Calculate cluster profiles (centroids in original units).
+    # Labels are positional; index alignment would mis-assign rows when
+    # the frame index is duplicated or non-monotonic.
+    excluded_columns = [col for col in df.columns if col not in feature_names]
     cluster_profiles = {}
     cluster_counts = {}
     for cl in range(best_k):
-        subset = df[clusters_df["cluster_label"] == cl]
+        subset = df.iloc[np.flatnonzero(best_labels == cl)]
         cluster_counts[f"cluster_{cl}"] = len(subset)
         cluster_profiles[f"cluster_{cl}"] = {
             col: round(float(subset[col].mean()), 2)
@@ -95,6 +98,7 @@ def run_clustering_pipeline(
         "random_seed": random_state,
         "features_evaluated": feature_names,
         "input_features_count": len(feature_names),
+        "columns_excluded_from_clustering": excluded_columns,
         "target_leakage_prevented": True,
         "silhouette_scores_by_k": silhouette_scores,
         "selected_k": best_k,
