@@ -1,7 +1,7 @@
 {
   "group_code": "AI-G09",
   "dataset_path": "data/AI_A1_G09.csv",
-  "sha256_fingerprint": "1de2293c3b42904dad884c33e6cd0758caa51bb62cd9614671e50b3e33318e06",
+  "sha256_fingerprint": "13b601b1324626d2d6e33b2f02687294b79a3392cabefcf3f5f42c0a00c04fc8",
   "row_count": 420,
   "feature_count": 6,
   "feature_names": [
