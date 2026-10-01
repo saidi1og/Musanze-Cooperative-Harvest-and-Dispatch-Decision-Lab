@@ -1,0 +1,104 @@
+{
+  "group_code": "AI-G04",
+  "dataset_path": "data/AI_A1_G04.csv",
+  "sha256_fingerprint": "1de2293c3b42904dad884c33e6cd0758caa51bb62cd9614671e50b3e33318e06",
+  "row_count": 420,
+  "feature_count": 6,
+  "feature_names": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ],
+  "identifier_column": "record_id (excluded from feature matrix)",
+  "missing_values": {
+    "record_id": 0,
+    "plot_area_ha": 0,
+    "rainfall_mm": 0,
+    "soil_ph": 0,
+    "seed_kg": 0,
+    "distance_km": 0,
+    "arrival_hour": 0,
+    "actual_yield_kg": 0,
+    "dispatch_attention": 0
+  },
+  "duplicate_record_ids": 0,
+  "duplicate_feature_rows": 0,
+  "descriptive_statistics": {
+    "plot_area_ha": {
+      "mean": 2.6854,
+      "std": 1.2356,
+      "min": 0.62,
+      "25%": 1.62,
+      "50%": 2.75,
+      "75%": 3.7525,
+      "max": 4.76
+    },
+    "rainfall_mm": {
+      "mean": 94.071,
+      "std": 24.6489,
+      "min": 40.0,
+      "25%": 76.25,
+      "50%": 94.15,
+      "75%": 110.4,
+      "max": 172.0
+    },
+    "soil_ph": {
+      "mean": 5.8167,
+      "std": 0.44,
+      "min": 4.8,
+      "25%": 5.51,
+      "50%": 5.83,
+      "75%": 6.105,
+      "max": 6.8
+    },
+    "seed_kg": {
+      "mean": 618.711,
+      "std": 285.0869,
+      "min": 106.4,
+      "25%": 377.125,
+      "50%": 629.35,
+      "75%": 868.05,
+      "max": 1132.1
+    },
+    "distance_km": {
+      "mean": 17.1619,
+      "std": 8.3765,
+      "min": 2.5,
+      "25%": 10.675,
+      "50%": 17.15,
+      "75%": 24.025,
+      "max": 31.9
+    },
+    "arrival_hour": {
+      "mean": 10.1524,
+      "std": 2.7585,
+      "min": 6.0,
+      "25%": 8.0,
+      "50%": 10.0,
+      "75%": 12.0,
+      "max": 18.0
+    },
+    "actual_yield_kg": {
+      "mean": 36864.7198,
+      "std": 17552.7735,
+      "min": 6139.4,
+      "25%": 21626.35,
+      "50%": 36572.3,
+      "75%": 50740.925,
+      "max": 72512.3
+    },
+    "dispatch_attention": {
+      "mean": 0.1357,
+      "std": 0.3429,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    }
+  },
+  "schema_validation": "PASSED"
+}

@@ -1,4 +1,4 @@
-# Musanze Cooperative Harvest & Dispatch Decision Lab (AI-G09)
+# Musanze Cooperative Harvest & Dispatch Decision Lab (MOB-G9-7573)
 ### INES Ruhengeri — SWE 3513 Artificial Intelligence (Assignment 1)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -26,12 +26,12 @@
 | **Member 4 (Clustering & QA Engineer)** | HAMID ABAAS HAMID | 25/27817 | Feature standardization, silhouette score evaluation for $k \in [2, 5]$, cluster profiles, target leakage checks. |
 | **Member 5 (Reproducibility & Release Lead)** | TUYISINGIZE Devotha | 25/27747 | CLI contract implementation, `predict.py` input validation, environment testing, final package hash and verification. |
 
-- **Group Code:** `AI-G09`
-- **Group Verification Code:** `AI-G09`
-- **Repository URL:** `https://github.com/ines-swe3513-2026/AI_A1_G09`
+- **Group Code:** `MOB-G9-7573`
+- **Group Verification Code:** `MOB-G9-7573`
+- **Repository URL:** `https://github.com/ines-swe3513-2026/AI_A1_MOB-G9-7573`
 - **Tested Python Version:** `Python 3.11.2 / 3.10+ (x86_64 Linux)`
 - **Final Git Commit Hash:** `7f9a8e2b4d1c3a5e8b0f2c4e6a8d0f1b2a3c4d5e`
-- **Lecturer Dataset File:** `data/AI_A1_G09.csv`
+- **Lecturer Dataset File:** `data/AI_A1_MOB-G9-7573.csv`
 
 ---
 
@@ -39,7 +39,7 @@
 
 ```bash
 # 1. Clone or extract the project archive
-cd AI_A1_G09
+cd AI_A1_MOB-G9-7573
 
 # 2. (Optional) Create and activate a clean virtual environment
 python3 -m venv venv
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### 4.1 Run the Full Pipeline
 ```bash
-python run_all.py --data data/AI_A1_G09.csv --output artifacts/ --group AI-G09
+python run_all.py --data data/AI_A1_MOB-G9-7573.csv --output artifacts/ --group MOB-G9-7573
 ```
 
 ### 4.2 Run Single Record Prediction

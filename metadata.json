@@ -1,0 +1,6 @@
+{
+  "name": "Musanze Cooperative Harvest and Dispatch Decision Lab",
+  "description": "Reproducible decision pipeline and operational dashboard for Musanze HarvestLink Cooperative (INES Ruhengeri SWE 3513 AI Assignment 1).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
